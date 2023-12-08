@@ -35,7 +35,7 @@ public class ProductResource {
 			@RequestParam(value = "name", defaultValue = "") String name,
 			Pageable pageable) {
 		
-		Page<ProductDTO> list = service.findAllPaged(categoryId, name.trim(), pageable);		
+		Page<ProductDTO> list = service.findAllPaged(categoryId, name.trim(), pageable); //trim = elimina espaços em branco da url		
 		return ResponseEntity.ok().body(list);
 	}
 
