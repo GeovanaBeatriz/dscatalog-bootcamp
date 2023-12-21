@@ -64,8 +64,18 @@
         width: 506px;
     }
 
-    .home-content-container svg{
+    .home-image-container svg{
         width: 506px;
+    }
+}
+
+@media (min-width: 768px){
+    .home-image-container {
+        padding: 100px 20px;
+    }
+
+    .home-content-container{
+        padding: 20px 20px 100px 20px;
     }
 }
 
