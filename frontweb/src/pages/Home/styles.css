@@ -43,3 +43,29 @@
     height: auto;
 }
 
+@media (min-width: 576px){
+
+    .home-container {
+        padding: 15px;
+        font-size: 40px;
+    }
+
+    .home-content-container h1{
+        width: 506px;
+        margin-bottom: 20px;
+    }
+
+    .home-content-container p{
+        width: 506px;
+        margin-bottom: 20px;
+    }
+
+    .home-content-container button{
+        width: 506px;
+    }
+
+    .home-content-container svg{
+        width: 506px;
+    }
+}
+
